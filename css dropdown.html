@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .dropdown{
+            position: relative;
+            display: inline-block;
+
+        }
+        div.dropdown-content{
+            position: absolute;
+            display: none;
+            color: blue;
+            background-color: red;
+            max-width: 100px;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+<p>i am paragraph</p>
+        <div class="dropdown-content">
+            <h1>hello</h1>
+        </div>
+    </div>
+</body>
+</html>
