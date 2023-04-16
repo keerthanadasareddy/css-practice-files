@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img{
+    width:600px;
+    height: 550px;
+    background-image: url(../tree.jpg);
+    background-size: cover;
+    
+   -webkit-mask: url(../images/mask-image-1.png);
+-webkit-mask-size:100% ;
+}

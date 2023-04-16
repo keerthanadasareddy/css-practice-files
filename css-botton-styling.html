@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: inline-block;
+        }
+        .container a{
+            text-decoration: none;
+            color: black;
+            padding: 14px;
+            float: left;
+            cursor: pointer; 
+            border: 1px solid black; 
+            margin: 5px;
+        }
+        .container a.active{
+            background-color: red;
+        }
+        .container a:hover:not(.active){
+            background-color: aqua;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+<a href="#" style="border-right: none;">1</a>
+<a class="active" href="#" style="border-right: none;">2</a>
+<a href="#" style="border-right: none;">3</a>
+<a href="#" style="border-right: none;">4</a>
+<a href="#" >5</a>
+
+    </div>
+</body>
+</html>
